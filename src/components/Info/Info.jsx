@@ -1,4 +1,6 @@
 'use client'
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import useTheme  from '@hooks/useTheme';
 import github from '../../../public/github-icon.png'
@@ -22,19 +24,20 @@ function Info() {
                     <p className='text-gray-400'>I build things on the web</p>
                 </h1>
                 <p className='text-lg sm:text-xl mb-4 mt-10 max-w-520'>
-                    {Text.about}<span className='text-green-500 font-bold'> Computer Science </span> Student, who aspires to become a <span className='text-orange-500 font-bold'>Full stack developer</span>
-                    <p className='mt-4'>{Text.p2}</p>
+                    {Text.about}
+                    <span className='text-green-500 font-bold ml-2 mr-2'>Computer Science</span> 
+                    <span>Student, who aspires to become a</span>
+                    <span className='text-orange-500 font-bold ml-2'>Full stack developer</span>
+                    <br />
+                    <span className='mt-4'>{Text.p2}</span>
+                    {/* <p className='mt-4'>{Text.p2}</p> */}
                 </p>
-                {/* <p className=' text-xl'>{Text.p2}</p> */}
                 <div className='flex mt-10'>
                     {/* <a href="https://www.facebook.com/rieljasper.apos/"><img className='mr-4' src={facebook} width="40px" height="40px" /></a> */}
-                    <a href="https://github.com/rieljasperapos"><img className='mr-2 rounded-full hover:animate-bounce transition-transform duration-300 ease-in' src={github} width="40px" height="40px"></img></a>
-                    <a href="https://www.linkedin.com/in/riel-jasper-apos-4202a124a/"><img className='hover:animate-bounce transition-transform duration-300 ease-in' src={linkedin} width="40px" height="40px"></img></a>
+                    <Link href="https://github.com/rieljasperapos"><Image className='mr-2 rounded-full hover:animate-bounce transition-transform duration-300 ease-in' src='/github-icon.png' width={40} height={40}></Image></Link>
+                    <Link href="https://www.linkedin.com/in/riel-jasper-apos-4202a124a/"><Image className='hover:animate-bounce transition-transform duration-300 ease-in' src='/linkedin-icon.png' width={40} height={40}></Image></Link>
                 </div>
             </div>
-            {/* <div className=''>
-                <img className='w-full rounded-lg bg-gray-500 lg:bg-transparent' src="https://www.pngmart.com/files/23/Anya-Forger-PNG-Isolated-Image.png"></img>
-            </div> */}
         </section>
     )
 }
