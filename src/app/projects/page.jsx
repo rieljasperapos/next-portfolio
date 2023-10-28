@@ -8,9 +8,9 @@ import projects from "@staticData/projects";
 import Link from "next/link";
 
 const Projects = () => {
-    const handleClick = (url) => {
-        window.location.href = url;
-    }
+    // const handleClick = (url) => {
+    //     window.location.href = url;
+    // }
     const [ref, inView] = useInView({
         // triggerOnce: true,
         onChange: (inViewStatus) => {
