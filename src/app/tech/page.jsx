@@ -17,6 +17,7 @@ import Mysql from '../../../public/mysql.png'
 import Tailwind from '../../../public/tailwindcss.png'
 import Bootstrap from '../../../public/bootstrap.png'
 import text from "@staticData/tech";
+import Image from "next/image";
 
 function Techs() {
     const [ref, inView] = useInView({
@@ -32,7 +33,7 @@ function Techs() {
     
     const animationProps = useSpring({
         opacity: animationTriggered ? 1 : 0,
-        transform: animationTriggered ? "translateX(0)" : "translateX(2%)",
+        transform: animationTriggered ? "translateX(0)" : "translateX(0%)",
         config: config.gentle,
     });
 
@@ -41,49 +42,49 @@ function Techs() {
     }
 
     return (
-        <animated.div ref={ref} style={animationProps} className='fixed'>
+        <animated.div ref={ref} style={animationProps}>
         <h1 className="font-bold text-xl text-center sm:text-2xl lg:text-4xl sm:pr-14 sm:pl-16 sm:ml-2 sm:mb-8 lg:mb-16 mt-14 uppercase">Technologies</h1>
         <section className="grid p-4 pb-16 sm:pb-22 sm:pr-14 sm:pl-14 lg:ml-64 lg:mr-64 h-full mt-8">
             <div>
                 <div className="flex flex-wrap w-auto justify-center lg:pt-12 sm:pr-12">
                     <div className="group">
-                        <img src={C} id="C" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={C} id="C" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">C</p>
                     </div>
                     <div className="group">
-                        <img src={Java} id="Java" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={Java} width={80} height={80} id="Java" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Java</p>
                     </div>
                     <div className="group">
-                        <img src={Javascript} id="Javascript" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={Javascript} id="Javascript" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Javascript</p>
                     </div>
                     <div className="group">
-                        <img src={react} id="react" className="w-12 h-10 m-4 sm:w-20 sm:h-16 lg:w-24 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={react} id="react" className="w-12 h-10 m-4 sm:w-20 sm:h-16 lg:w-24 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">React</p>
                     </div>
                     <div className="group">
-                        <img src={Tailwind} id="tailwind" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={Tailwind} id="tailwind" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Tailwind</p>
                     </div>
                     <div className="group">
-                        <img src={Css} id="CSS" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={Css} id="CSS" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Css</p>
                     </div>
                     <div className="group">
-                        <img src={Bootstrap} id="Bootstrap" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={Bootstrap} id="Bootstrap" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Bootstrap</p>
                     </div>
                     <div className="group">
-                        <img src={Html} id="Html" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={Html} id="Html" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Html</p>
                     </div>
                     <div className="group">
-                        <img src={Php} id="Php" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={Php} id="Php" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Php</p>
                     </div>
                     <div className="group">
-                        <img src={Mysql} id="Mysql" className="w-16 h-10 m-4 sm:w-24 sm:h-16 lg:w-28 lg:h-16 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></img>
+                        <Image src={Mysql} id="Mysql" className="w-16 h-10 m-4 sm:w-24 sm:h-16 lg:w-28 lg:h-16 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Mysql</p>
                     </div>
                 </div>
