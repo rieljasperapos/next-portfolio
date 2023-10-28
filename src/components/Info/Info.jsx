@@ -4,7 +4,7 @@ import useTheme  from '@hooks/useTheme';
 import github from '../../../public/github-icon.png'
 import linkedin from '../../../public/linkedin-icon.png'
 // import facebook from '../../../../facebook.png'
-// import Text from './Texts';
+import Text from '@staticData/info';
 
 function Info() {
     const { theme, textColorClass, toggleTheme } = useTheme();

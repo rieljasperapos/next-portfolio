@@ -36,8 +36,8 @@ const Projects = () => {
         <animated.section ref={ref} style={animationProps} className="flex flex-col justify-center items-center mt-14 mb-20 sm:pr-14 sm:pl-14">
         <h1 className="font-bold text-xl text-center sm:text-2xl lg:text-4xl mb-4 sm:mb-8 lg:mb-12 uppercase">Projects</h1>
         <div className="grid gap-4 lg:gap-8 sm:flex sm:flex-row flex-wrap p-4">
-            {projects.map(proj => (
-                <div onClick={() => {handleClick(proj.url)}} className="max-w-sm rounded overflow-hidden shadow-lg hover:scale-105 transition ease-out duration-300 bg-transparent mb-12 cursor-pointer">
+            {projects.map((proj, i) => (
+                <div key={i} onClick={() => {handleClick(proj.url)}} className="max-w-sm rounded overflow-hidden shadow-lg hover:scale-105 transition ease-out duration-300 bg-transparent mb-12 cursor-pointer">
                     <img className="w-full sm:h-52" src={proj.image}></img>
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">{proj.title}</div>
@@ -46,8 +46,8 @@ const Projects = () => {
                         </p>
                     </div>
                     <div className="px-6 pt-4 pb-2">
-                        {proj.techs.map(tech => (
-                            <span className="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2">
+                        {proj.techs.map((tech, i) => (
+                            <span key={i} className="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2">
                                 {tech}
                             </span>
                         ))}
