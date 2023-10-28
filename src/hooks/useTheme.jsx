@@ -22,8 +22,8 @@ const useTheme = () => {
     setTheme(localStorage.getItem('theme') || 'light');
   }, []);
 
-  console.log(theme);
-  console.log(textColorClass);
+  // console.log(theme);
+  // console.log(textColorClass);
 
   return { theme, textColorClass, toggleTheme };
 };

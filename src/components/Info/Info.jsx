@@ -8,7 +8,7 @@ import Text from '@staticData/info';
 
 function Info() {
     const { theme, textColorClass, toggleTheme } = useTheme();
-    console.log(theme);
+    // console.log(theme);
     
     //flex sm:justify-center items-center p-4 h-screen pb-40 sm:pl-14 sm:pr-14'
     return (
