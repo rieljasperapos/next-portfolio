@@ -1,5 +1,5 @@
-import LibraryHub from '../../../public/libraryHub.png'
-import Edrms from '../../../public/edrms.png'
+import LibraryHub from '../../public/LibraryHub.png'
+import Edrms from '../../public/edrms.png'
 const projects = [
     {
         id: 1,

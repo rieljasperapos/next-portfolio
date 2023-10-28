@@ -2,11 +2,9 @@
 
 import Link from 'next/link';
 import React, { useEffect, useState } from "react";
-import useTheme  from "../../hooks/useTheme";
+import useTheme  from "@hooks/useTheme";
 // import { Link } from "react-scroll";
 // import Projects from "../Proj/Projects";
-import Techs from '../Techs/Tech';
-import Projects from '../../pages/Projects';
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -72,7 +70,7 @@ function Header() {
             <ul className="hidden sm:flex sm:p-4 text-lg">
                 <li className="mr-14 hover:text-orange-400 cursor-default text-lg">
                     <Link
-                        href='/Projects'
+                        href='/projects'
                     >
                         Projects
                     </Link>

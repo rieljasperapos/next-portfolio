@@ -1,10 +1,10 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import useTheme  from '../../hooks/useTheme';
-import github from '../../../../public/github-icon.png'
-import linkedin from '../../../../public/linkedin-icon.png'
+import useTheme  from '@hooks/useTheme';
+import github from '../../../public/github-icon.png'
+import linkedin from '../../../public/linkedin-icon.png'
 // import facebook from '../../../../facebook.png'
-import Text from './Texts';
+// import Text from './Texts';
 
 function Info() {
     const { theme, textColorClass, toggleTheme } = useTheme();

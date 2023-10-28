@@ -1,20 +1,21 @@
+'use client'
 import React from "react";
 import { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import { config } from "react-spring";
 import { useInView } from "react-intersection-observer";
 // import './Tech.css'
-import C from '../../../../public/C.png'
-import Java from '../../../../public/java.png'
-import Javascript from '../../../../public/JS.png'
-import react from '../../../../public/react.png'
-import Html from '../../../../public/HTML.png'
-import Css from '../../../../public/CSS.png'
-import Php from '../../../../public/php.png'
-import Mysql from '../../../../public/mysql.png'
-import Tailwind from '../../../../public/tailwindcss.png'
-import Bootstrap from '../../../../public/bootstrap.png'
-import text from "./Text";
+import C from '../../../public/C.png'
+import Java from '../../../public/java.png'
+import Javascript from '../../../public/JS.png'
+import react from '../../../public/react.png'
+import Html from '../../../public/HTML.png'
+import Css from '../../../public/CSS.png'
+import Php from '../../../public/php.png'
+import Mysql from '../../../public/mysql.png'
+import Tailwind from '../../../public/tailwindcss.png'
+import Bootstrap from '../../../public/bootstrap.png'
+import text from "@staticData/tech";
 
 function Techs() {
     const [ref, inView] = useInView({

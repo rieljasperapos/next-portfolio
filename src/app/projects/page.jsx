@@ -4,10 +4,10 @@ import { useState, React } from "react"
 import { useSpring, animated } from "react-spring";
 import { config } from "react-spring";
 import { useInView } from "react-intersection-observer";
-import projects from "./data"
+import projects from "@staticData/projects";
 import Link from "next/link";
 
-const Project = () => {
+const Projects = () => {
     const handleClick = (url) => {
         window.location.href = url;
     }
@@ -77,4 +77,4 @@ const Project = () => {
     )
 }
 
-export default Project;
+export default Projects;
