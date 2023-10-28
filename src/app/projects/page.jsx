@@ -5,12 +5,13 @@ import { useSpring, animated } from "react-spring";
 import { config } from "react-spring";
 import { useInView } from "react-intersection-observer";
 import projects from "@staticData/projects";
-import Link from "next/link";
+import Image from "next/image";
 
 const Projects = () => {
-    // const handleClick = (url) => {
-    //     window.location.href = url;
-    // }
+    const handleClick = (url) => {
+        window.location.href = url;
+    }
+
     const [ref, inView] = useInView({
         // triggerOnce: true,
         onChange: (inViewStatus) => {
@@ -38,7 +39,7 @@ const Projects = () => {
         <div className="grid gap-4 lg:gap-8 sm:flex sm:flex-row flex-wrap p-4">
             {projects.map((proj, i) => (
                 <div key={i} onClick={() => {handleClick(proj.url)}} className="max-w-sm rounded overflow-hidden shadow-lg hover:scale-105 transition ease-out duration-300 bg-transparent mb-12 cursor-pointer">
-                    <img className="w-full sm:h-52" src={proj.image}></img>
+                    <Image className="w-full sm:h-52" src={proj.image}></Image>
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">{proj.title}</div>
                         <p className="text-base">
@@ -71,7 +72,6 @@ const Projects = () => {
                 
             ))}
         </div>
-        <Link href='/Test'>GO TO TEST</Link>
         </animated.section>
 
     )
