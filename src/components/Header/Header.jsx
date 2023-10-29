@@ -21,7 +21,7 @@ function Header() {
         <>
         <div className="flex align-center justify-between pl-4 pr-4 shadow-sm">
             <Link href='/' className="p-4 text-shadow-md font-sans text-2xl cursor-default hover:text-blue-500">rieljasper</Link>
-            <ul className="hidden sm:flex sm:p-4 text-lg">
+            <ul className="hidden sm:flex sm:p-4 mt-1">
                 <li className="mr-14 hover:text-orange-400 cursor-default text-lg">
                     <Link href='/projects'>Projects</Link>
                 </li>
@@ -39,7 +39,7 @@ function Header() {
                 </label>
             </ul>
 
-            <div className="sm:hidden cursor-pointer p-4 drawer-end" style={{ zIndex: 999 }}>
+            <div className="sm:hidden cursor-pointer p-4 drawer-end mt-2" style={{ zIndex: 999 }}>
                 <input id="my-drawer-4" type="checkbox" className="drawer-toggle" checked={drawerOpen} onChange={toggleDrawer} />
                 <div className="drawer-content">
                     <label htmlFor="my-drawer-4" className="drawer-button">
