@@ -89,7 +89,7 @@ function Techs() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col p-4 w-auto mt-6 mb-8'>
+            <div className='flex flex-col p-4 pt-0 w-auto mb-8'>
                 <p className=" text-lg">{text.p1}</p>
                 <p className=" text-lg mt-8">{text.p2}</p>
             </div>
