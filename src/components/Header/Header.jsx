@@ -4,7 +4,6 @@ import Link from 'next/link';
 import React, { useEffect, useState } from "react";
 import useTheme  from "@hooks/useTheme";
 
-
 function Header() {
     const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -24,33 +23,13 @@ function Header() {
             <Link href='/' className="p-4 text-shadow-md font-sans text-2xl cursor-default hover:text-blue-500">rieljasper</Link>
             <ul className="hidden sm:flex sm:p-4 text-lg">
                 <li className="mr-14 hover:text-orange-400 cursor-default text-lg">
-                    <Link
-                        href='/projects'
-                    >
-                        Projects
-                    </Link>
+                    <Link href='/projects'>Projects</Link>
                 </li>
                 <li className="mr-14 hover:text-orange-400 cursor-default text-lg">
-                    <Link
-                        href="/tech"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        Technologies
-                    </Link>
+                    <Link href="/tech">Technologies</Link>
                 </li>
                 <li className="hover:text-orange-400 cursor-default text-lg mr-7">
-                    <Link
-                        href="about-me"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        About
-                    </Link>
+                    <Link href="about-me">About</Link>
                 </li>
                 <div className="border-l mr-8"></div>
 
