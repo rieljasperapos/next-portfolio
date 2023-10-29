@@ -15,7 +15,7 @@ function Header() {
         setDrawerOpen(false);
     };
 
-    const {theme, toggleTheme} = useTheme();
+    const { toggleTheme } = useTheme();
 
     return (
         <>
