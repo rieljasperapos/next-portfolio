@@ -35,7 +35,7 @@ function Info() {
                 <div className='flex mt-10'>
                     {/* <a href="https://www.facebook.com/rieljasper.apos/"><img className='mr-4' src={facebook} width="40px" height="40px" /></a> */}
                     <Link href="https://github.com/rieljasperapos"><Image className='mr-2 rounded-full hover:animate-bounce transition-transform duration-300 ease-in' src='/github-icon.png' width={40} height={40}></Image></Link>
-                    <Link href="https://www.linkedin.com/in/riel-jasper-apos-4202a124a/"><Image className='hover:animate-bounce transition-transform duration-300 ease-in' src='/linkedin-icon.png' width={40} height={40}></Image></Link>
+                    <Link href="https://www.linkedin.com/in/riel-jasper-apos-4202a124a/"><Image className='hover:animate-bounce transition-transform duration-300 ease-in' src='/linkedin-icon.png' width={38} height={38}></Image></Link>
                 </div>
             </div>
         </section>
