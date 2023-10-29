@@ -34,7 +34,7 @@ const Projects = () => {
     }
 
     return (
-        <animated.section ref={ref} style={animationProps} className="flex flex-col justify-center items-center mt-14 mb-20 sm:pr-14 sm:pl-14">
+        <animated.section ref={ref} style={animationProps} className="flex flex-col justify-center items-center mt-14 sm:pr-14 sm:pl-14">
         <h1 className="font-bold text-xl text-center sm:text-2xl lg:text-4xl mb-4 sm:mb-8 lg:mb-12 uppercase">Projects</h1>
         <div className="flex flex-col justify-center items-cente grid gap-4 lg:gap-8 sm:flex sm:flex-row flex-wrap p-4">
             {projects.map((proj, i) => (
