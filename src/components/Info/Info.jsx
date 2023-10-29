@@ -1,18 +1,9 @@
-'use client'
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
 import useTheme  from '@hooks/useTheme';
-import github from '../../../public/github-icon.png'
-import linkedin from '../../../public/linkedin-icon.png'
-// import facebook from '../../../../facebook.png'
 import Text from '@staticData/info';
 
 function Info() {
-    const { theme, textColorClass, toggleTheme } = useTheme();
-    // console.log(theme);
-    
-    //flex sm:justify-center items-center p-4 h-screen pb-40 sm:pl-14 sm:pr-14'
     return (
         <section className="grid sm:justify-center items-center p-4 h-auto w-auto pb-40 sm:pl-14 sm:pr-14 mt-10">
             <div className='p-4 2xl:p-24 w-full'>
@@ -30,12 +21,10 @@ function Info() {
                     <span className='text-orange-500 font-bold ml-2'>Full stack developer</span>
                     <br />
                     <span className='mt-4'>{Text.p2}</span>
-                    {/* <p className='mt-4'>{Text.p2}</p> */}
                 </p>
                 <div className='flex mt-10'>
-                    {/* <a href="https://www.facebook.com/rieljasper.apos/"><img className='mr-4' src={facebook} width="40px" height="40px" /></a> */}
-                    <Link href="https://github.com/rieljasperapos"><Image className='mr-2 rounded-full hover:animate-bounce transition-transform duration-300 ease-in' src='/github-icon.png' width={40} height={40}></Image></Link>
-                    <Link href="https://www.linkedin.com/in/riel-jasper-apos-4202a124a/"><Image className='hover:animate-bounce transition-transform duration-300 ease-in' src='/linkedin-icon.png' width={38} height={38}></Image></Link>
+                    <Link href="https://github.com/rieljasperapos"><Image className='mr-2 rounded-full hover:animate-bounce transition-transform duration-300 ease-in' src='/github-icon.png' alt='github' width={40} height={40}></Image></Link>
+                    <Link href="https://www.linkedin.com/in/riel-jasper-apos-4202a124a/"><Image className='hover:animate-bounce transition-transform duration-300 ease-in' src='/linkedin-icon.png' alt='linkedin' width={38} height={38}></Image></Link>
                 </div>
             </div>
         </section>
