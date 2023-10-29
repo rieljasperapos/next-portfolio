@@ -12,7 +12,8 @@ const about = () => {
                 <Image src={profilepic} alt='profile'></Image>
                 <p className="leading-8 grid justify-center items-center xl:mr-64 xl:ml-64 p-16">
                     <span className="mr-2">{texts.text1}</span>
-                    {/* <spann>{texts.text2}</spann> */}
+                    <br />
+                    <span>{texts.text2}</span>
                 </p>
             </div>
         </div>
