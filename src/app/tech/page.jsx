@@ -48,43 +48,43 @@ function Techs() {
             <div>
                 <div className="flex flex-wrap w-auto justify-center lg:pt-12 sm:pr-12">
                     <div className="group">
-                        <Image src={C} id="C" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={C} alt="C" id="C" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">C</p>
                     </div>
                     <div className="group">
-                        <Image src={Java} width={80} height={80} id="Java" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={Java} alt='Java' id="Java" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Java</p>
                     </div>
                     <div className="group">
-                        <Image src={Javascript} id="Javascript" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={Javascript} alt='Javascript' id="Javascript" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Javascript</p>
                     </div>
                     <div className="group">
-                        <Image src={react} id="react" className="w-12 h-10 m-4 sm:w-20 sm:h-16 lg:w-24 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={react} alt='react' id="react" className="w-12 h-10 m-4 sm:w-20 sm:h-16 lg:w-24 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">React</p>
                     </div>
                     <div className="group">
-                        <Image src={Tailwind} id="tailwind" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={Tailwind} alt='tailwind' id="tailwind" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Tailwind</p>
                     </div>
                     <div className="group">
-                        <Image src={Css} id="CSS" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={Css} alt='CSS' id="CSS" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Css</p>
                     </div>
                     <div className="group">
-                        <Image src={Bootstrap} id="Bootstrap" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={Bootstrap} alt='Bootstrap' id="Bootstrap" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Bootstrap</p>
                     </div>
                     <div className="group">
-                        <Image src={Html} id="Html" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={Html} alt='Html' id="Html" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Html</p>
                     </div>
                     <div className="group">
-                        <Image src={Php} id="Php" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={Php} alt='Php' id="Php" className="w-10 h-10 m-4 sm:w-16 sm:h-16 lg:w-20 lg:h-20 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Php</p>
                     </div>
                     <div className="group">
-                        <Image src={Mysql} id="Mysql" className="w-16 h-10 m-4 sm:w-24 sm:h-16 lg:w-28 lg:h-16 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
+                        <Image src={Mysql} alt='Mysql' id="Mysql" className="w-16 h-10 m-4 sm:w-24 sm:h-16 lg:w-28 lg:h-16 hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in"></Image>
                         <p className=" font-mono text-center sm:opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-200">Mysql</p>
                     </div>
                 </div>
