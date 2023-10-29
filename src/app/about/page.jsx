@@ -4,7 +4,7 @@ import texts from '@staticData/about'
 
 const about = () => {
     return (
-        <div className="mt-14 p-4 sm:pr-14 sm:pl-14">
+        <div className="mt-14 p-4 pt-0 sm:pr-14 sm:pl-14">
             <div className="flex flex-col justify-center items-center">
                 <h1 className="font-bold text-xl text-center sm:text-2xl lg:text-4xl sm:pr-14 sm:pl-14 mb-16 uppercase">
                     About
