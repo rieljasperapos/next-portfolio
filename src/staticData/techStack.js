@@ -4,7 +4,7 @@ const techStack = [
         title: 'C',
         value: 90,
         progress: '90%',
-        textColor: "text-green-500",
+        textColor: "text-c",
     },
 
     {
@@ -12,7 +12,7 @@ const techStack = [
         title: 'Java',
         value: 60,
         progress: '60%',
-        textColor: "text-green-400",
+        textColor: "text-red-500",
     },
 
     {
@@ -20,7 +20,7 @@ const techStack = [
         title: 'Javascript',
         value: 70,
         progress: '70%',
-        textColor: "text-warning",
+        textColor: "text-javascript",
     },
 
     {
@@ -44,7 +44,7 @@ const techStack = [
         title: 'CSS',
         value: 70,
         progress: '70%',
-        textColor: "text-primary",
+        textColor: "text-css",
     },
 
     {
@@ -52,7 +52,7 @@ const techStack = [
         title: 'Bootstrap',
         value: 40,
         progress: '40%',
-        textColor: "text-primary",
+        textColor: "text-bootstrap",
     },
 
     {
@@ -68,7 +68,7 @@ const techStack = [
         title: 'Php',
         value: 40,
         progress: '40%',
-        textColor: "text-primary",
+        textColor: "text-php",
     },
 
     {
