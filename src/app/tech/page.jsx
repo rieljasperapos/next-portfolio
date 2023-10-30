@@ -39,8 +39,8 @@ function Techs() {
                 <div className="flex flex-wrap w-auto justify-center gap-5 lg:pt-12 sm:pr-12">
                     {techStack.map((item, indx) => {
                         return (
-                            <div key={indx} className="group">
-                                <div className={`hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in radial-progress ${item.color}`} style={{ "--value": `${item.value}`, "--size": "10rem", "--thickness": "0.8rem" }}>
+                            <div key={indx} className='group'>
+                                <div className="flex flex-col justify-center items-center radial-progress hover:animate-bounce transition-transform duration-300 ease-in" style={{ "--value": `${item.value}`, "--size": "9rem", "--thickness": "0.6rem" }}>
                                     <Image src={item.src} width={40} height={40} alt={item.title}></Image>
                                     <span className="font-bold mt-2">{item.progress}</span>
                                 </div>
