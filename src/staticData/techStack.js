@@ -18,16 +18,16 @@ const techStack = [
     {
         src: "/JS.png",
         title: 'Javascript',
-        value: 70,
-        progress: '70%',
+        value: 80,
+        progress: '80%',
         textColor: "text-javascript",
     },
 
     {
         src: "/react.png",
         title: "React",
-        value: 50,
-        progress: "50%",
+        value: 70,
+        progress: "70%",
         textColor: "text-info",
     },
 
