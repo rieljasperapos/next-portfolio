@@ -36,7 +36,7 @@ const techStack = [
         title: 'Tailwind',
         value: 90,
         progress: '90%',
-        color: "text-blue-400",
+        color: "text-info",
     },
 
     {
@@ -44,7 +44,7 @@ const techStack = [
         title: 'CSS',
         value: 70,
         progress: '70%',
-        color: "text-blue-700",
+        color: "text-secondary",
     },
 
     {
