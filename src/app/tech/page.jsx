@@ -40,7 +40,7 @@ function Techs() {
                     {techStack.map((item, indx) => {
                         return (
                             <div key={indx} className='group'>
-                                <div className={`flex flex-col justify-center items-center radial-progress ${item.textColor} hover:animate-bounce transition-transform duration-300 ease-in`} style={{ "--value": `${item.value}`, "--size": "9rem", "--thickness": "0.6rem" }}>
+                                <div className={`flex flex-col justify-center items-center radial-progress ${item.textColor} drop-shadow-xl hover:animate-bounce transition-transform duration-300 ease-in`} style={{ "--value": `${item.value}`, "--size": "9rem", "--thickness": "0.6rem" }}>
                                     <Image src={item.src} width={40} height={40} alt={item.title}></Image>
                                     <span className="font-bold mt-2">{item.progress}</span>
                                 </div>
