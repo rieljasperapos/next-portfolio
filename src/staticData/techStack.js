@@ -4,7 +4,7 @@ const techStack = [
         title: 'C',
         value: 90,
         progress: '90%',
-        textColor: "text-secondary",
+        textColor: "text-green-500",
     },
 
     {
@@ -12,7 +12,7 @@ const techStack = [
         title: 'Java',
         value: 60,
         progress: '60%',
-        textColor: "text-red-500",
+        textColor: "text-green-400",
     },
 
     {
