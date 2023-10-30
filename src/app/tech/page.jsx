@@ -5,17 +5,6 @@ import { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import { config } from "react-spring";
 import { useInView } from "react-intersection-observer";
-// import './Tech.css'
-import C from '../../../public/C.png'
-import Java from '../../../public/java.png'
-import Javascript from '../../../public/JS.png'
-import react from '../../../public/react.png'
-import Html from '../../../public/HTML.png'
-import Css from '../../../public/CSS.png'
-import Php from '../../../public/php.png'
-import Mysql from '../../../public/mysql.png'
-import Tailwind from '../../../public/tailwindcss.png'
-import Bootstrap from '../../../public/bootstrap.png'
 import text from "@staticData/tech";
 import Image from "next/image";
 import techStack from "@/staticData/techStack";
@@ -51,7 +40,7 @@ function Techs() {
                     {techStack.map((item, indx) => {
                         return (
                             <div key={indx} className="group">
-                                <div className={`hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in shadow radial-progress ${item.color}`} style={{ "--value": `${item.value}`, "--size": "10rem", "--thickness": "1rem" }}>
+                                <div className={`hover:scale-105 hover:animate-bounce transition-transform duration-300 ease-in radial-progress ${item.color}`} style={{ "--value": `${item.value}`, "--size": "10rem", "--thickness": "0.8rem" }}>
                                     <Image src={item.src} width={40} height={40} alt={item.title}></Image>
                                     <span className="font-bold mt-2">{item.progress}</span>
                                 </div>
