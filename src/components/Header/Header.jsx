@@ -19,7 +19,7 @@ function Header() {
 
     return (
         <>
-        <div className="flex align-center justify-between pl-4 pr-4 shadow-sm">
+        <div className="flex align-center justify-between pl-4 pr-4 shadow-sm backdrop-blur-sm sticky top-0 z-10 border-opacity-25 border-b">
             <Link href='/' className="p-4 text-shadow-md font-sans text-2xl cursor-default hover:text-blue-500">rieljasper</Link>
             <ul className="hidden sm:flex sm:p-4 mt-1">
                 <li className="mr-14 hover:text-orange-400 cursor-default text-lg">
@@ -93,7 +93,6 @@ function Header() {
                 </div>
             </div>
         </div>
-        <hr className="opacity-50"></hr>
         </>
     );
 }
