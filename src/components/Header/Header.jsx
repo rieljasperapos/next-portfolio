@@ -28,6 +28,9 @@ function Header() {
                 <li className="mr-14 hover:text-orange-400 cursor-default text-lg">
                     <Link href="/tech">Technologies</Link>
                 </li>
+                <li className="mr-14 hover:text-orange-400 cursor-default text-lg">
+                    <Link href="https://blog-rieljasper.vercel.app/" target="_blank">Blog</Link>
+                </li>
                 <li className="hover:text-orange-400 cursor-default text-lg mr-7">
                     <Link href="/about">About</Link>
                 </li>
