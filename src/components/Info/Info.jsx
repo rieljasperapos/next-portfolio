@@ -23,8 +23,8 @@ function Info() {
                     <span className='mt-4'>{Text.p2}</span>
                 </p>
                 <div className='flex mt-10'>
-                    <Link href="https://github.com/rieljasperapos"><Image className='mr-2 rounded-full hover:animate-bounce transition-transform duration-300 ease-in' src='/github-icon.png' alt='github' width={40} height={40}></Image></Link>
-                    <Link href="https://www.linkedin.com/in/riel-jasper-apos-4202a124a/"><Image className='hover:animate-bounce transition-transform duration-300 ease-in' src='/linkedin-icon.png' alt='linkedin' width={38} height={38}></Image></Link>
+                    <Link href="https://github.com/rieljasperapos"><Image className='mr-2 rounded-full hover:animate-pulse transition-transform duration-300 ease-in' src='/github-icon.png' alt='github' width={40} height={40}></Image></Link>
+                    <Link href="https://www.linkedin.com/in/riel-jasper-apos-4202a124a/"><Image className='hover:animate-pulse transition-transform duration-300 ease-in' src='/linkedin-icon.png' alt='linkedin' width={38} height={38}></Image></Link>
                 </div>
             </div>
         </section>
